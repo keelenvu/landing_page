@@ -1,0 +1,152 @@
+body {
+    font-family: "Roboto", Times, sans-serif;
+    padding: 0 10rem;
+}
+
+/* header */
+
+header {
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav__bar {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.nav__links li, a {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    font-family: "roboto-light";
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+/* hero */
+
+.hero {
+    padding: 5rem 0;
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero_body {
+    padding-right: 6.4rem;
+}
+
+.hero-container {
+    display: flex;
+    padding: 0 10rem;
+    align-items: center;
+}
+
+.hero_main {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.hero_secondary {
+    font-size: 18px;
+    font-family: "roboto-light";
+    color: #E5E7EB;
+}
+
+/* card */
+
+.card-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.cards {
+    display: flex;
+    padding: 0 20rem;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+}
+
+/*quote*/
+.quote {
+  background-color: #E5E7EB;
+  padding: 100px 200px;
+  
+}
+
+.quote h1 {
+    
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;  
+}
+
+.quote p {
+    text-align: right;
+    font-size: 24px;
+}
+
+/* call to action */
+.cta-container {
+    background-color: #3882f6;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 25px 50px;
+    border-radius: 16px;
+}
+
+.cta p {
+    font-size: 24px;
+    font-family: "roboto-light";
+    color: #E5E7EB;
+}
+
+.btn.cta_btn {
+    border: 1px solid white;
+    margin-top: 30px;
+}
+
+/*footer*/
+footer {
+background-color: #1f2937;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 50px;
+}
+
+
+
+/* etc */
+
+.btn {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+
